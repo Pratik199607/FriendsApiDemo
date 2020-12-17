@@ -1,7 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
-h1 {
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	justify-items: center;
+	text-align: center;
+}
+.customtext {
 	font-family: "Bungee", cursive;
 	font-size: 2rem;
 	font-weight: 200;
-	color: #1031ee;
+	color: #720e9e;
 }
